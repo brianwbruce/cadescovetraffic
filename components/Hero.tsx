@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { FoundingInsiderForm } from './FoundingInsiderForm';
 
 export function Hero() {
@@ -21,11 +22,17 @@ export function Hero() {
           </div>
         </div>
 
-        <div
-          aria-hidden
-          className="hidden lg:col-span-2 lg:block"
-        >
-          <div className="aspect-[4/5] w-full rounded-3xl bg-gradient-to-br from-forest-600 via-forest-400 to-ember-400 shadow-lg" />
+        <div className="hidden lg:col-span-2 lg:block">
+          <div className="relative aspect-[4/5] w-full overflow-hidden rounded-3xl shadow-lg">
+            <Image
+              src="/images/cades-cove-hero.jpg"
+              alt="A wide meadow at Cades Cove with the Smoky Mountains in the distance, two visitors walking through tall summer grass"
+              fill
+              sizes="(min-width: 1024px) 40vw, 100vw"
+              className="object-cover"
+              priority
+            />
+          </div>
         </div>
       </div>
     </section>
