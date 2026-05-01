@@ -14,6 +14,9 @@ const config = [
   {
     rules: {
       '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
+      // Content uses apostrophes and quotes liberally; escaping every one of
+      // them would hurt readability without changing rendering.
+      'react/no-unescaped-entities': 'off',
     },
   },
 ];

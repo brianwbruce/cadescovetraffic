@@ -112,7 +112,7 @@ This codebase ships in milestones — see `CadesCoveTraffic_PRD.md`.
 
 - [x] **Milestone 0:** Bootstrap (Next.js, Tailwind, env scaffolding, deploy config)
 - [x] **Milestone 1:** Database schema and signup endpoint
-- [ ] **Milestone 2:** Homepage layout and content
+- [x] **Milestone 2:** Homepage layout and content
 - [ ] **Milestone 3:** Founding Insider conversion flow
 - [ ] **Milestone 4:** Article pages
 - [ ] **Milestone 5:** SEO, analytics, launch prep
